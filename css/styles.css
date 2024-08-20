@@ -1,0 +1,169 @@
+/* Top Banner Section Styles */
+#top-banner {
+
+    color: #fff; /* Text color (white) */
+    padding: 5px;
+    text-align: center;
+    margin-bottom: 20px; /* space between this section and the her section */
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+    border-radius: 8px;
+    
+}
+
+/* Optional: Add some styling to h1 and p */
+#top-banner h1 {
+    display: inline-block;
+    padding: 5px;
+    font-size: 1.5rem;
+    margin: 5px;
+}
+
+#top-banner p {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: center;
+}
+/* Base Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background: #0f0367;
+}
+
+header {
+    background: #333;
+    color: #ffff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+
+#hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 50px 20px;
+    background: #e4ecf4;
+    margin-bottom: 20px;
+    color: #000000;
+}
+
+/* Profile Image Style */
+#hero img {
+    width: 550px;
+    height: 330px;
+    border-radius: 2%;
+    margin-top: 20px;
+    display: block;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background: #0f0367;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.btn:hover {
+    background: #555;
+}
+
+#about, #projects, #skills, #contact, #education, #certification, #internship {
+    padding: 20px;
+    margin: 10px;
+    background: #d5dbf1;
+    border-radius: 8px;
+    color: #000000;
+}
+
+
+h2 {
+    color: #333;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li  {
+    color: #333;
+}
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 10px 0;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+/* Basic styles for mobile menu */
+#navMenu {
+    display: none;
+}
+
+#navMenu.visible {
+    display: block;
+}
+
+#menuToggle {
+    display: block; /* Make sure the menu toggle button is visible */
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    #hero h1 {
+        font-size: 2rem;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 5px 0;
+    }
+
+    #hero img {
+        width: 120px;
+        height: 120px;
+    }
+}
+
+@media (max-width: 480px) {
+    #hero h1 {
+        font-size: 1.5rem;
+    }
+
+    section {
+        padding: 10px;
+    }
+}
